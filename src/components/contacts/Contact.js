@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Consumer } from '../../context';
+import axios from 'axios';
 
 class Contact extends Component {
   state = {
@@ -8,12 +10,13 @@ class Contact extends Component {
   };
 
   //  DELETE CONTACT EVENT
-  onDeleteClick = (id, dispatch) => {
-    dispatch({ type: 'DELETE_CONTACT', payload: id });
+  onDeleteClick = async (email, dispatch) => {
+    await axios.delete(`https://jsonplaceholder.typicode.com/users/${email}`);
+    dispatch({ type: 'DELETE_CONTACT', payload: email });
   };
 
   render() {
-    const { id, name, email, phone } = this.props.contact;
+    const {id, name, email, phone } = this.props.contact;
     const { showContactInfo } = this.state;
 
     return (
@@ -36,8 +39,14 @@ class Contact extends Component {
                 <i
                   className="fas fa-user-times text-danger"
                   style={{ float: 'right', cursor: 'pointer' }}
-                  onClick={() => this.onDeleteClick(id, dispatch)}
+                  onClick={() => this.onDeleteClick(email, dispatch)}
                 />
+                <Link to={`contact/edit/${id}`}>
+                 <i
+                  className="far fa-edit text-success"
+                  style={{ float: 'right', marginRight: '20px', cursor: 'pointer' }}
+                />
+                </Link>
               </h4>
               {showContactInfo ? (
                 <ul className="list-group">
