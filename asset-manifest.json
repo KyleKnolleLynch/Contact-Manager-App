@@ -1,15 +1,15 @@
 {
-  "main.css": "/contact_manager/static/css/main.e6257bfd.chunk.css",
-  "main.js": "/contact_manager/static/js/main.8ed876d1.chunk.js",
-  "main.js.map": "/contact_manager/static/js/main.8ed876d1.chunk.js.map",
-  "runtime~main.js": "/contact_manager/static/js/runtime~main.75798bfb.js",
-  "runtime~main.js.map": "/contact_manager/static/js/runtime~main.75798bfb.js.map",
-  "static/css/2.e45cac27.chunk.css": "/contact_manager/static/css/2.e45cac27.chunk.css",
-  "static/js/2.db7cecc9.chunk.js": "/contact_manager/static/js/2.db7cecc9.chunk.js",
-  "static/js/2.db7cecc9.chunk.js.map": "/contact_manager/static/js/2.db7cecc9.chunk.js.map",
-  "index.html": "/contact_manager/index.html",
-  "precache-manifest.9ca2a5954f4c9f555eb30e37f07c7f52.js": "/contact_manager/precache-manifest.9ca2a5954f4c9f555eb30e37f07c7f52.js",
-  "service-worker.js": "/contact_manager/service-worker.js",
-  "static/css/2.e45cac27.chunk.css.map": "/contact_manager/static/css/2.e45cac27.chunk.css.map",
-  "static/css/main.e6257bfd.chunk.css.map": "/contact_manager/static/css/main.e6257bfd.chunk.css.map"
+  "main.css": "/Contact-Manager-App/static/css/main.e6257bfd.chunk.css",
+  "main.js": "/Contact-Manager-App/static/js/main.2053476d.chunk.js",
+  "main.js.map": "/Contact-Manager-App/static/js/main.2053476d.chunk.js.map",
+  "runtime~main.js": "/Contact-Manager-App/static/js/runtime~main.259e788c.js",
+  "runtime~main.js.map": "/Contact-Manager-App/static/js/runtime~main.259e788c.js.map",
+  "static/css/2.e45cac27.chunk.css": "/Contact-Manager-App/static/css/2.e45cac27.chunk.css",
+  "static/js/2.db7cecc9.chunk.js": "/Contact-Manager-App/static/js/2.db7cecc9.chunk.js",
+  "static/js/2.db7cecc9.chunk.js.map": "/Contact-Manager-App/static/js/2.db7cecc9.chunk.js.map",
+  "index.html": "/Contact-Manager-App/index.html",
+  "precache-manifest.d14257853faf48d35df3765d1fd257ce.js": "/Contact-Manager-App/precache-manifest.d14257853faf48d35df3765d1fd257ce.js",
+  "service-worker.js": "/Contact-Manager-App/service-worker.js",
+  "static/css/2.e45cac27.chunk.css.map": "/Contact-Manager-App/static/css/2.e45cac27.chunk.css.map",
+  "static/css/main.e6257bfd.chunk.css.map": "/Contact-Manager-App/static/css/main.e6257bfd.chunk.css.map"
 }
