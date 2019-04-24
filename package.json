@@ -2,7 +2,7 @@
   "name": "contact_manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KyleKnolleLynch.github.io/contact_manager",
+  "homepage": "https://kyleknollelynch.github.io/Contact-Manager-App/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
